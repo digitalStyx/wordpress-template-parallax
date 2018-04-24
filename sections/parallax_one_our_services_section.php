@@ -53,18 +53,19 @@
 									if( (!empty($parallax_one_service_box->icon_value) && $parallax_one_service_box->icon_value!='No Icon' && $parallax_one_service_box->choice == 'parallax_icon')  || (!empty($parallax_one_service_box->image_url)  && $parallax_one_service_box->choice == 'parallax_image') || !empty($parallax_one_service_box->title) || !empty($parallax_one_service_box->text) ){
 										echo '<div class="service-box">';
 										?>
-                                            <div style="color:red;
-                                            border-top: 1px solid #eaeaea;
+                                            <div style="border-top: 1px solid #eaeaea;
                                             border-left: 1px solid #eaeaea;
                                             border-right: 1px solid #eaeaea;
                                             background: #ffffff;
                                             padding-top:5px;
                                             padding-bottom:5px;
+                                            padding-left:40px;
+
 ">
 
                                                 <?php
                                                 if(!empty($parallax_one_service_box->title)){
-                                                    echo '<h4 class="colored-text">'.esc_attr($parallax_one_service_box->title).'</h4>';
+                                                    echo '<h4 class="dark-text" style="font-weight:bold;">'.esc_attr($parallax_one_service_box->title).'</h4>';
                                                 }
                                                 ?>
 

@@ -1319,7 +1319,7 @@ header .navbar-brand {
 }
 
 .single-service {
-	padding: 40px 35px 40px 35px;
+	padding: 0px 35px 10px 35px;
 	background: #ffffff;
 	border-top: 1px solid #eaeaea;
 	border-left: 1px solid #eaeaea;
@@ -1335,7 +1335,7 @@ header .navbar-brand {
 .services-wrap .service-box {
 	display: inline-block;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 
 .services-wrap > .service-box {
